@@ -1,0 +1,17 @@
+{
+  "title": "Literature Craft",
+  "one_sentence": "A Minecraft survival adventure where the Literature Club helps build a home while real Juice Galaxy content begins leaking into the world.",
+  "primary_game": "minecraft-java",
+  "companion_games": [
+    {"game": "doki-doki-literature-club", "role": "companion", "real_content": ["character dialogue read from the player's DDLC installation"]},
+    {"game": "juice-galaxy", "role": "companion", "real_content": ["player-owned install inspected at runtime; future vertical slices will consume selected real assets/data"]}
+  ],
+  "mode": "single-player",
+  "first_minute": [
+    "Run /literaturecraft start.",
+    "Four Literature Club NPCs appear beside the player.",
+    "The player receives the first story beat and can inspect the player's DDLC and Juice Galaxy installs.",
+    "The next slice will turn a detected Juice Galaxy asset/data entry into the first real rift encounter."
+  ],
+  "v0_1_must_have": ["Minecraft host mod", "DDLC runtime file bridge", "Juice Galaxy runtime file bridge", "Literature Club NPC setup", "player-owned files never shipped"]
+}
